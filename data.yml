@@ -1,8 +1,8 @@
 title : Website Dumper
 tagline: Blog Tagline
 author :
-  name : Firstname Lastname
-  email : blah@email.test
+  name : Sundays Energy, Inc.
+  email : info@sundaysenergy.com
   github : username
   twitter : username
   feedburner : feedname
@@ -13,4 +13,4 @@ navigation :
   - categories.html
   - pages.html
   - about.md
-  
+

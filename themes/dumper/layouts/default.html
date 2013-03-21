@@ -63,7 +63,7 @@
                             <li class="share-button">
                                 <a href="https://plus.google.com/115051972725141785005/"><i class="icon-google-plus-sign"></i></a></li>
                         </ul>
-                        <a class='muted pull-right' href="mailto:info@websitedumper.com">info@websitedumper.com</a>
+                        <a class='muted pull-right' href="mailto:{{ data.author.name }}">{{ data.author.email }}/a>
                     </div>
                 </div>
             </section>
@@ -74,8 +74,9 @@
             </section>
 
             <footer id="pagefooter">
-                <p class="pull-right">©2013 Sundays Energy, Inc.</p>
+                <p class="pull-right">&copy; {{ data.author.name }} 2013</p>
             </footer>
         </div> <!-- /container -->
+        {{{ widgets.analytics }}}
     </body>
 </html>
