@@ -2,9 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <title>{{ page.title }}</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+      {{# page.description }}
+        <meta name="description" content="{{ . }}">
+      {{/ page.description }}
+        <meta name="author" content="{{ data.author.name }}">
+
         <meta name="viewport" content="width=device-width">
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -65,22 +69,7 @@
             </section>
 
             <section id="info" class="row">
-                <div class="span4">
-                    <h3>Why?</h3>
-                    <p>Your web pages loading too slowly. Your CMS is using too many server resources. Your web hosting is too expensive, goes down every so often and gets spammed with lots of comments.</p>
-                    <p>Put an end to it, today! Website Dumper will give you a perfect static version of your existing website! This archive can be the basis for a new website, or simply a copy to live on forever.</p>
-                </div>
-                <div class="span4">
-                    <h3>How?</h3>
-                    <p>Enter your URL and e-mail, and click Dump! Upon completing the payment page we will copy all publicly accessible pages that are linked to within your site. After we've made a copy of your pages and necessary assets (like images, etc.), they will be deployed to our SuperSimple static site hosting platform where all assets are pushed to the Akamai CDN for speedy delivery and unmatched availability.</p>
-                    <p>It is important to note that this process will make your site "static" and will have no CMS login or admin interface.</p>
-                    <p>If you need to access the site HTML files you may access them via your Dropbox account. Any changes to files you make will be automatically reflected on your website.</p>
-                    <p>The archive can be the basis for a new website, or simply as a copy to live on forever.</p>
-                </div>
-                <div class="span4">
-                    <h3>Price?</h3>
-                    <p>The price is $149. This includes the archive process and hosting for a full year (you are free to switch hosts at any time). If needed, we will help you change DNS settings and replace your contact form so it keeps working. The only additional charges will be an annual hosting fee of $59 beginning a year after the dump.</p>
-                </div>
+              {{{ content }}}
             </section>
 
             <footer id="pagefooter">
