@@ -7,11 +7,11 @@
        "launch.css",
        "recurly.css",
       ],
-     
+
       "widgets" : {
         "google_prettify" : "twitter-bootstrap.css"
       }
-      
+
     },
 
     "javascripts" : {
@@ -23,7 +23,7 @@
         "jquery.query.js",
       ]
     },
-    
+
     "manifest" : {
       "author" : "Sundays Energy",
       "website" : "http://www.sundaysenergy.com"
