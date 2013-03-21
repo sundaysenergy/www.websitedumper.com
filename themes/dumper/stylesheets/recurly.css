@@ -2,9 +2,10 @@
 #recurly-update-billing-info,
 #recurly-transaction, 
 #websitedumper-main {
-  margin: 0;
-  padding: 16px 16px 7px 16px;
-  position: relative;
+  width: 500px;
+  margin: 30px auto;
+  padding: 0px;
+  box-shadow: 0px 1px 8px -1px #333;
   background-image: url('../media/stripes.png');
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.3)), to(rgba(0,10,10,0.2))), url('../media/stripes.png');
   background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(0,10,10,0.2) 100%), url('../media/stripes.png');
