@@ -34,7 +34,7 @@
                 <h1>Website Dumper</h1>
                 <h2>Stress-free site archives</h2>
             </header>
-
+            {{# page.form }}
             <section id="signup-sect">
                 <p>Fill out the form and we'll dump your site!</p>
                 <div class="flex-container">
@@ -67,6 +67,7 @@
                     </div>
                 </div>
             </section>
+            {{/ page.form }}
 
             <section id="info" class="row">
               {{{ content }}}
