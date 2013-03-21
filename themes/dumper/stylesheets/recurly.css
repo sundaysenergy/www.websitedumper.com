@@ -2,9 +2,20 @@
 #recurly-update-billing-info,
 #recurly-transaction, 
 #websitedumper-main {
-  width: 500px;
-  margin: 30px auto;
-  padding: 0px;
+  margin: 0;
+  padding: 16px 16px 7px 16px;
+  position: relative;
+  background-image: url('../media/stripes.png');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.3)), to(rgba(0,10,10,0.2))), url('../media/stripes.png');
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(0,10,10,0.2) 100%), url('../media/stripes.png');
+  background-image:    -moz-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(0,10,10,0.2) 100%), url('../media/stripes.png');
+  background-image:      -o-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(0,10,10,0.2) 100%), url('../media/stripes.png');
+  background-image:     -ms-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(0,10,10,0.2) 100%), url('../media/stripes.png');
+  background-image:         linear-gradient(to bottom, rgba(255,255,255,0.3) 0%, rgba(0,10,10,0.2) 100%), url('../media/stripes.png');
+  -webkit-box-shadow: 0px 1px 8px -1px #333;
+          box-shadow: 0px 1px 8px -1px #333;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
 /*
   border: 1px solid #999;
   border-radius: 8px;
