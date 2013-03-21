@@ -1,4 +1,9 @@
+html {
+  height: 100%;
+}
+
 body {
+  min-height: 100%;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   font-weight: 400;
   color: #444;
