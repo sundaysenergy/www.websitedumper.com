@@ -28,8 +28,6 @@ description:
                       enableCoupons: true,
                       successURL: 'http://ling1.sundaysenergy.net:9294/dumper?email=' + $.query.get('email') + '&site_url=' + encodeURIComponent($.query.get('site_url')),
                       account: {
-                        firstName: $.query.get('first_name'),
-                        lastName: $.query.get('last_name'),
                         email: $.query.get('email'),
                       },
                     });
